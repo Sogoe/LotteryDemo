@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>彩票Demo</title>
+    <link rel="stylesheet" href="build/css/main.css?v=3">
+</head>
+<body>
+    <article class="content">
+        <header class="nav-header">
+            <nav class="nav-container">
+                <a id="1" class="nav-item active"><label>选第1位</label></a>
+                <a id="2" class="nav-item"><label>选2全中</label></a>
+                <a id="3" class="nav-item"><label>选3全中</label></a>
+                <a id="4" class="nav-item"><label>选4全中</label></a>
+                <a id="5" class="nav-item"><label>选5全中</label></a>
+            </nav>
+        </header>
+        <section class="drawer-layout">
+            <section class="history-page">
+                <section class="history-list">
+                    <section class="list-container">
+                    </section>
+                </section>
+                <section class="refresh-state-bar loading">
+                    <label>刷新成功</label>
+                </section>
+            </section>
+            <section class="main-page">
+                <section class="timer-bar">
+                    <label class="timer-panel">距离50期截止 </label>
+                    <label class="arrow-panel down">下拉历史开奖</label>
+                </section>
+                <section class="select-panel">
+                    <span class="select-item">01</span>
+                    <span class="select-item">02</span>
+                    <span class="select-item">03</span>
+                    <span class="select-item">04</span>
+                    <span class="select-item">05</span>
+                    <span class="select-item">06</span>
+                    <span class="select-item">07</span>
+                    <span class="select-item">08</span>
+                    <span class="select-item">09</span>
+                    <span class="select-item">10</span>
+                    <span class="select-item">11</span>
+                </section>
+            </section>
+        </section>
+        <section class="bottom-panel">
+            <section class="notice-bar">
+                <label>至少选择2个球，猜中任意2个，中13块钱</label>
+            </section>
+            <section class="button-area">
+                <button class="random-button"></button>
+                <button class="submit-button">至少选择2个球</button>
+            </section>
+        </section>
+    </article>
+</body>
+<script src="build/app.min.js"></script>
+<script>
+    window.onload = function() {
+        App.init();
+    }
+</script>
+</html>

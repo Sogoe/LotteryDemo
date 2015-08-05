@@ -1,0 +1,17 @@
+{
+  "name": "tencent-lottery",
+  "version": "0.0.1",
+  "description": "tencent lottery interview demo",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp default",
+    "build": "gulp build"
+  },
+  "author": "Mr.Lan",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.3",
+    "gulp-rename": "^1.2.2"
+  }
+}
